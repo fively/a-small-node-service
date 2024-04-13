@@ -1,21 +1,32 @@
 {
   "compilerOptions": {
+    "paths": {
+      "@/*": ["src/*"],
+      "@common": ["../../libs/common/src"],
+      "@common/*": ["../../libs/common/src/*"],
+      "@auth": ["../../libs/auth/src"],
+      "@auth/*": ["../../libs/auth/src/*"],
+      "@db": ["../../libs/db/src"],
+      "@db/*": ["../../libs/db/src/*"]
+    },
+    "baseUrl": ".",
     "module": "commonjs",
     "declaration": true,
     "removeComments": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
-    "target": "ES2021",
-    "sourceMap": true,
+    "target": "es2017",
+    "sourceMap": false,
+    "allowJs": true,
     "outDir": "./dist",
-    "baseUrl": "./",
     "incremental": true,
     "skipLibCheck": true,
     "strictNullChecks": false,
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "resolveJsonModule": true
   }
 }

@@ -1,0 +1,11 @@
+#### 公共的配置文件
+COMMON:
+  cacheKey:
+    #### 登录token缓存key
+    token: 'example:token'
+    #### 登录token缓存有效期
+    tokenExpires: 172800
+    #### 用户权限缓存key
+    permission: 'example:permission'
+    #### 用户权限缓存有效期
+    permissionExpires: 172800
