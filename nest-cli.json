@@ -44,7 +44,7 @@
       "entryFile": "index",
       "sourceRoot": "libs/common/src",
       "compilerOptions": {
-        "tsConfigPath": "libs/common/tsconfig.lib.json"
+        "tsConfigPath": "libs/common/tsconfig.json"
       }
     },
     "auth": {
@@ -53,7 +53,7 @@
       "entryFile": "index",
       "sourceRoot": "libs/auth/src",
       "compilerOptions": {
-        "tsConfigPath": "libs/auth/tsconfig.lib.json"
+        "tsConfigPath": "libs/auth/tsconfig.json"
       }
     },
     "db": {
@@ -62,7 +62,7 @@
       "entryFile": "index",
       "sourceRoot": "libs/db/src",
       "compilerOptions": {
-        "tsConfigPath": "libs/db/tsconfig.lib.json"
+        "tsConfigPath": "libs/db/tsconfig.json"
       }
     }
   }
