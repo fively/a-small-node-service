@@ -1,0 +1,20 @@
+#### wechat-service 配置文件
+DATABASE:
+  debug: true
+  client: 'mysql'
+  connection:
+    host: ''
+    port: 5301
+    user: ''
+    password: ''
+    database: ''
+REDIS:
+  host: ''
+  port: 5601
+  database: 1
+  user: ''
+  password: ''
+WECHAT:
+  token: ''
+  appId: ''
+  appSecret: ''
