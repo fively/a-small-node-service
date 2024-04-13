@@ -22,5 +22,19 @@ Nest.js、Fastify、Knex
     - ecosystem.config.js    PM2配置
     
 
+### 安装
 
-### 引用
+```
+pnpm install
+```
+
+### 启动
+
+```
+pnpm [run] start core-service
+```
+注：core-service是apps中对应应用
+
+
+### 参考
+掘金课程/文档、github项目、网络课程等等

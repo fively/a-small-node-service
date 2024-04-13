@@ -1,8 +1,8 @@
-import { Module } from '@nestjs/common';
-import { CommonService } from './common.service';
+import { Global, Module } from '@nestjs/common';
 
+@Global()
 @Module({
-  providers: [CommonService],
-  exports: [CommonService]
+  providers: [],
+  exports: []
 })
 export class CommonModule {}

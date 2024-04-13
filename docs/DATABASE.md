@@ -1,5 +1,6 @@
 ## 数据库配置
-数据库操作，使用的是knex库( https://knexjs.org/ )
+数据库操作，使用的是：knex( https://knexjs.org/ )
+数据库连接，拷贝的是：nestjs-knexjs
 
 ### 数据库
 数据库使用：mysql8.0
